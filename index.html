@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,14 +34,8 @@
         </svg>
     </div>
 <div class="heimen">
-🧨 点一点、放烟花、攒好运、祝各位<script type="text/javascript">
-    document.write(new Date().getFullYear());
-</script>
-、好运连连...🎁 <br>
-🧨 传递好运、召唤好友一起来放烟花吧、分享给好友、<script type="text/javascript">
-    document.write(new Date().getFullYear());
-</script>
-年好运值将拉满哦...🎉<br>
+🧨 点鼠标、放烟花、攒好运、祝各位2023、好运连连...🎁 <br>
+🧨 传递好运、召唤好友一起来放烟花吧、分享3个好友、2023年好运值将拉满哦...🎉<br>
 <a href="https://www.xudadi.com" target="_blank">🎁 xudadi</a>
 </div>
     <!-- App -->
@@ -56,6 +49,36 @@
             <div class="canvas-container">
                 <canvas id="trails-canvas"></canvas>
                 <canvas id="main-canvas"></canvas>
+            </div>
+            <div class="controls">
+                <div class="btn pause-btn">
+                    <svg fill="white" width="24" height="24"><use href="#icon-pause" xlink:href="#icon-pause"></use></svg>
+                </div>
+                <div class="btn sound-btn">
+                    <svg fill="white" width="24" height="24"><use href="#icon-sound-off" xlink:href="#icon-sound-off"></use></svg>
+                </div>
+                <div class="btn settings-btn">
+                    <svg fill="white" width="24" height="24"><use href="#icon-settings" xlink:href="#icon-settings"></use></svg>
+                </div>
+            </div>
+            <div class="menu hide">
+                <div class="menu__inner-wrap">
+                    <div class="btn btn--bright close-menu-btn">
+                        <svg fill="white" width="24" height="24"><use href="#icon-close" xlink:href="#icon-close"></use></svg>
+                    </div>
+                    <div class="menu__header">设置</div>
+                    <div class="menu__subheader">有关详细信息，请单击任何标签。</div>
+                    <form>
+                        <div class="form-option form-option--select">
+                            <label class="shell-type-label">烟花样式</label>
+                            <select class="shell-type"></select>
+                        </div>
+                        <div class="form-option form-option--select">
+                            <label class="shell-size-label">烟花大小</label>
+                            <select class="shell-size"></select>
+                        </div>
+                        <div class="form-option form-option--select">
+                            <label class="quality-ui-label">质量</label>
                             <select class="quality-ui"></select>
                         </div>
                         <div class="form-option form-option--select">
